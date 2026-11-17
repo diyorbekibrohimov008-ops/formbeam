@@ -543,8 +543,8 @@ export function LandingPage({ workspace, onEnterApp }: LandingPageProps) {
 
       {/* Auth Modal */}
       {authMode && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm">
-          <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-2xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm overscroll-contain">
+          <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-2xl overscroll-contain">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-bold text-slate-950">
                 {authMode === "register" ? "Create your free FormBeam workspace" : "Sign in to FormBeam"}
@@ -552,7 +552,8 @@ export function LandingPage({ workspace, onEnterApp }: LandingPageProps) {
               <button
                 type="button"
                 onClick={() => setAuthMode(null)}
-                className="text-sm text-slate-400 hover:text-slate-700"
+                aria-label="Close modal"
+                className="text-sm text-slate-500 hover:text-slate-700 rounded p-1"
               >
                 ✕
               </button>
