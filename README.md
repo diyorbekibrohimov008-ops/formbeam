@@ -2,6 +2,10 @@
 
 > **Serverless Backends for Static Forms** — Built-in lead magnet delivery, un-paywalled webhooks, multipart file uploads, and native two-way spreadsheet sync for Webflow, Astro, Hugo, Next.js, and static websites.
 
+> [!WARNING]
+> **Project Status — Work in Progress (Not Fully Ready)**
+> This project is currently under active development and is **not fully ready for production**. Some parts, features, or workflow steps will fail or behave unexpectedly. We are actively working on fixing all remaining issues.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f9dcf0d3-7c26-4d7b-ad48-dcefc64eaace/deploy-status)](https://app.netlify.com/projects/formbeam/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
